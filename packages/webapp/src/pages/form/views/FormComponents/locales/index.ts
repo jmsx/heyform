@@ -5,10 +5,14 @@ import pl from './pl'
 import tr from './tr'
 import zhCn from './zh-cn'
 import zhTw from './zh-tw'
+import es from './es'
 
 export default {
   en: {
     translation: en
+  },
+  es: {
+    translation: es
   },
   fr: {
     translation: fr

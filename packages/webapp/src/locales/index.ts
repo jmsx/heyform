@@ -9,12 +9,19 @@ import pl from './pl'
 import tr from './tr'
 import zhCn from './zhCn'
 import zhTw from './zhTw'
+import es from './es'
 
 const resources = {
   en: {
     translation: {
       ...en,
       ...locales.en.translation
+    }
+  },
+  es: {
+    translation: {
+      ...es,
+      ...locales.es.translation
     }
   },
   pl: {
