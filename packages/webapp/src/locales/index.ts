@@ -2,7 +2,7 @@ import i18n from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 
-import { locales } from '@/pages/form/views/FormComponents'
+import formComponentsLocales from '../pages/form/views/FormComponents/locales'
 
 import en from './en'
 import pl from './pl'
@@ -15,41 +15,41 @@ const resources = {
   en: {
     translation: {
       ...en,
-      ...locales.en.translation
+      ...formComponentsLocales.en.translation
     }
   },
   es: {
     translation: {
       ...es,
-      ...locales.es.translation
+      ...formComponentsLocales.es.translation
     }
   },
   pl: {
     translation: {
       ...pl,
-      ...locales.pl.translation
+      ...formComponentsLocales.pl.translation
     }
   },
   tr: {
     translation: {
       ...tr,
-      ...locales.tr.translation
+      ...formComponentsLocales.tr.translation
     }
   },
   'zh-cn': {
     translation: {
       ...zhCn,
-      ...locales['zh-cn'].translation
+      ...formComponentsLocales['zh-cn'].translation
     }
   },
   'zh-tw': {
     translation: {
       ...zhTw,
-      ...locales['zh-tw'].translation
+      ...formComponentsLocales['zh-tw'].translation
     }
   },
-  fr: locales.fr,
-  de: locales.de
+  fr: formComponentsLocales.fr,
+  de: formComponentsLocales.de
 }
 
 const LANG_ALIASES: Record<string, string> = {
