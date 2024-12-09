@@ -15,6 +15,10 @@ export const LOCALES_OPTIONS = [
     value: 'en'
   },
   {
+    label: 'Spanish',
+    value: 'es'
+  },
+  {
     label: 'Polski',
     value: 'pl'
   },
@@ -29,11 +33,8 @@ export const LOCALES_OPTIONS = [
   {
     label: '繁体中文',
     value: 'zh-tw'
-  },
-  {
-    label: 'Español',
-    value: 'es'
   }
+
 ]
 
 export const FORM_LOCALES_OPTIONS = [
